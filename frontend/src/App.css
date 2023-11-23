@@ -1,0 +1,186 @@
+.login{
+  width: 30%;
+  height: 200px;
+  margin-left: 35%;
+  margin-top: 200px;
+  border-radius: 40px;
+  background-image: linear-gradient(to right, pink , skyblue,violet);
+}
+.login input{
+  padding: 2%;
+  margin-left: 26%;
+  margin-top: 3%;
+  width: 50%;
+  border-radius: 2px;
+}
+.login input::placeholder {
+  font: 1.25rem/3 cursive;
+  text-align: center;
+}
+.login button,#send{
+  background-image: linear-gradient(to right, pink , skyblue,violet);
+  color: black;
+  font-size: 500;
+  font-family: cursive;
+  width: 30%;
+  margin-top: 7%;
+  padding: 1%;
+  height: 30px;
+  margin-left: 14%;
+}
+.login textarea{
+  display: none;
+}
+#send{
+  width: 70%;
+  margin-left: 17%;
+}
+#check{
+  color: transparent;
+  font-size: 700;
+  margin-top: -1%;
+  margin-left: 60%;
+}
+.left{
+  width: 33%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+.right{
+  width: 50%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+}
+.menu{
+  background-color: skyblue;
+  width: 52%;
+  margin-left: 47%;
+  margin-top: 10%;
+  height: 670px;
+  border: 2px solid black;
+}
+.menu ul{
+  list-style: none;
+  margin-top:40%;
+  font-size: larger;
+}
+.menu li{
+  margin-top: 25%;
+  padding: 2%;
+  border-bottom: 2px solid black;
+}
+.menu li:hover{
+  background-color: rgb(256,256,256,0.6);
+  transition-duration: 1s;
+}
+.common{
+  background-color: antiquewhite;
+  height: 670px;
+  border: 2px solid black;
+  width: 95%;
+  margin-top: 7%;
+}
+.common h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+}
+.add,.add1 {
+  width: 80%;
+  height: 5%;
+  margin-top: 5%;
+  margin-left: 10%;
+  background-color: rgb(256,256,256,0.6);
+  border: 0px solid;
+}
+.add1{
+  width: 30%;
+  margin-left: 10%;
+}
+.common input::placeholder {
+  font: 1.25rem/3 cursive;
+  text-align: center;
+}
+.common label{
+  margin-left: 10%;
+  font-size: 17px;
+}
+#date{
+  margin-top: 2%;
+}
+#add{
+  background-color: rgb(256,256,256,0.6);
+  width: 80%;
+  margin-top: 8%;
+  height: 7%;
+  margin-left: 10%;
+  font-size: 20px;
+}
+.common table{
+  margin-top: 20%;
+  margin-left: 10%;
+  border: 2px solid skyblue;
+  width: 80%;
+}
+.common thead{
+  background-color: skyblue;
+  color: whitesmoke;
+  text-shadow: 1px 1px black;
+}
+.button{
+  background-color: rgb(256,256,256,0.6);
+  padding: 1%;
+  margin-left: 10%;
+}
+.add2{
+  width: 45%;
+  margin-left: 10%;
+  height: 5%;
+  font-size: large;
+}
+.dcontent{
+  width: 60%;
+  margin-top: 7%;
+  border-radius: 4px;
+  margin-left: 10%;
+  background-color: rgba(245, 245, 245, 0.721);;
+  height: 300px;
+}
+.add3{
+  height: 4%;
+  margin-left: 10%;
+  width: 34%;
+}
+#filter{
+  background-color: rgb(256,256,256,0.6);
+  margin-left: 12%;
+  padding: 1%;
+  width: 75%;
+  margin-top: 5%;
+  font-size: large;
+}
+#filter{
+  margin-top: 5%;
+}
+.add4{
+  width: 50%;
+  height: 4%;
+  margin-left: 10%;
+  background-color: rgb(256,256,256,0.6);
+}
+.update{
+  margin-left: 4%;
+  padding: 1%;
+  background-color: rgb(256,256,256,0.6);
+}
+#display{
+  margin-top: 5%;
+}
+.common p{
+  margin-top: 13%;
+  font-family: cursive;
+  margin-left: 4%;
+}
